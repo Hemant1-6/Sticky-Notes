@@ -1,0 +1,37 @@
+* { box-sizing:border-box; }
+
+body { background:url(https://subtlepatterns.com/patterns/little_pluses.png) #cacaca; margin:30px; }
+
+textarea  { 
+  padding:25px 25px 40px;
+  margin:0 20px 20px 0;
+  width:250px;
+  height:250px; 
+}
+
+textarea {
+  font:20px 'Gloria Hallelujah', cursive; 
+  line-height:1.5;
+  border:0;
+  border-radius:3px;
+  background: linear-gradient(#F9EFAF, #F7E98D);
+  box-shadow:0 4px 6px rgba(0,0,0,0.1);
+  overflow:hidden;
+  transition:box-shadow 0.5s ease;
+  max-width:520px;
+  max-height:250px;
+}
+
+textarea:hover { box-shadow:0 5px 8px rgba(0,0,0,0.15); }
+textarea:focus { box-shadow:0 5px 12px rgba(0,0,0,0.2); outline:none; }
+
+#newNote {display: flex; flex-wrap: wrap;}
+
+#addNotes{ border-radius: 2px; margin: 20px;}
+#addNotes:hover {transform: scale(1.2); border: 0px; background-color: rgb(255, 145, 2); color: white;}
+
+
+.deleteNote {display: block; border: 2px solid green;}
+.deleteNote:hover {border-radius: 5px; background-color: red;color: white;}
+
+span {margin: 10px;}
